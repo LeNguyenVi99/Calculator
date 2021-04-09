@@ -16,7 +16,12 @@ namespace Calculator
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        //private void label1_Click(object sender, EventArgs e)
+        //{
+            
+        //}
+
+        private void button1_Click(object sender, EventArgs e)
         {
             double a = double.Parse(SoA.Text);
             double b = double.Parse(SoB.Text);
@@ -24,9 +29,12 @@ namespace Calculator
             KetQua.Text = c.ToString();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
-
+            double a = double.Parse(SoA.Text);
+            double b = double.Parse(SoB.Text);
+            double c = a - b;
+            KetQua.Text = c.ToString();
         }
     }
 }
