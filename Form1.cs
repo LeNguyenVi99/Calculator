@@ -18,7 +18,10 @@ namespace Calculator
 
         private void label1_Click(object sender, EventArgs e)
         {
-
+            double a = double.Parse(SoA.Text);
+            double b = double.Parse(SoB.Text);
+            double c = a + b;
+            KetQua.Text = c.ToString();
         }
 
         private void button1_Click(object sender, EventArgs e)

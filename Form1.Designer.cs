@@ -28,42 +28,42 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.SoA = new System.Windows.Forms.Label();
+            this.KetQua = new System.Windows.Forms.Label();
+            this.SoB = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // label1
+            // SoA
             // 
-            this.label1.BackColor = System.Drawing.SystemColors.Info;
-            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label1.Location = new System.Drawing.Point(95, 51);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(130, 23);
-            this.label1.TabIndex = 0;
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.SoA.BackColor = System.Drawing.SystemColors.Info;
+            this.SoA.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.SoA.Location = new System.Drawing.Point(95, 51);
+            this.SoA.Name = "SoA";
+            this.SoA.Size = new System.Drawing.Size(130, 23);
+            this.SoA.TabIndex = 0;
+            this.SoA.Click += new System.EventHandler(this.label1_Click);
             // 
-            // label2
+            // KetQua
             // 
-            this.label2.BackColor = System.Drawing.SystemColors.Info;
-            this.label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label2.Location = new System.Drawing.Point(95, 130);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(130, 23);
-            this.label2.TabIndex = 1;
+            this.KetQua.BackColor = System.Drawing.SystemColors.Info;
+            this.KetQua.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.KetQua.Location = new System.Drawing.Point(95, 130);
+            this.KetQua.Name = "KetQua";
+            this.KetQua.Size = new System.Drawing.Size(130, 23);
+            this.KetQua.TabIndex = 1;
             // 
-            // label3
+            // SoB
             // 
-            this.label3.BackColor = System.Drawing.SystemColors.Info;
-            this.label3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label3.Location = new System.Drawing.Point(95, 88);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(130, 23);
-            this.label3.TabIndex = 2;
+            this.SoB.BackColor = System.Drawing.SystemColors.Info;
+            this.SoB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.SoB.Location = new System.Drawing.Point(95, 88);
+            this.SoB.Name = "SoB";
+            this.SoB.Size = new System.Drawing.Size(130, 23);
+            this.SoB.TabIndex = 2;
             // 
             // button1
             // 
@@ -110,9 +110,9 @@
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.SoB);
+            this.Controls.Add(this.KetQua);
+            this.Controls.Add(this.SoA);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -122,9 +122,9 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label SoA;
+        private System.Windows.Forms.Label KetQua;
+        private System.Windows.Forms.Label SoB;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
